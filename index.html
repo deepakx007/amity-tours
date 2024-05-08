@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Packages</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS for Index Page */
+    body {
+      background-color: #f8f9fa;
+    }
+    .carousel {
+      height: 400px; 
+      overflow: hidden; 
+    }
+    .carousel-caption {
+      background-color: rgba(52, 58, 64, 0.8);
+      color: #fff;
+      padding: 20px;
+    }
+    .package-card {
+      border: 1px solid #dee2e6;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tour Packages</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Welcome to our Tour Packages</h2>
+        <p>Explore our exciting tour packages below:</p>
+
+        <!-- Tour Packages Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Tour Package 1 -->
+            <div class="carousel-item active">
+              <a href="tour_details.html">
+                <img src="static/goa.jpeg" class="d-block w-100" alt="Tour 1">
+                <div class="carousel-caption">
+                  <h5>Goa</h5>
+                  <p>Explore majestic beaches & culture of Goa.</p>
+                </div>
+              </a>
+            </div>
+            <!-- Tour Package 2 -->
+            <div class="carousel-item">
+              <a href="tour_details.html">
+                <img src="/static/gulmarg.jpeg" class="d-block w-100" alt="Tour 2">
+                <div class="carousel-caption">
+                  <h5>Kashmir</h5>
+                  <p>Explore the beauty of Himalayas</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h4>Tour Packages Categories</h4>
+        <ul class="list-group">
+          <li class="list-group-item">Adventure Tours</li>
+          <li class="list-group-item">Cultural Tours</li>
+          <li class="list-group-item">Beach Getaways</li>
+          <li class="list-group-item">City Escapes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <h2>Featured Packages</h2>
+    <div class="row">
+      <!-- Package 1 -->
+      <div class="col-md-4">
+        <div class="card package-card">
+          <img style="height: 230px;" src="static/trek.jpeg" class="card-img-top" alt="Package 1">
+          <div class="card-body">
+            <h5 class="card-title">Gokarna</h5>
+            <p class="card-text">Experience the beauty of nature with our jungle trekking adventure.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Package 2 -->
+      <div class="col-md-4">
+        <div class="card package-card">
+          <img src="/static/ellora.webp" class="card-img-top" alt="Package 2">
+          <div class="card-body">
+            <h5 class="card-title">Ellora</h5>
+            <p class="card-text">Explore ancient ruins and archaeological sites on our historical tour.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Package 3 -->
+      <div class="col-md-4">
+        <div class="card package-card">
+          <img src="/static/kerala.avif" class="card-img-top" alt="Package 3">
+          <div class="card-body">
+            <h5 class="card-title">Kerala</h5>
+            <p class="card-text">Relax and rejuvenate with our luxury spa retreat.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark mt-5">
+    <div class="container">
+      <span class="text-muted">Contact us: example@example.com</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
